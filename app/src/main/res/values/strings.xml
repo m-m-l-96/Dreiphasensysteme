@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">DPS</string>
+    <string name="welcome">Herzlich willkommen zu meinem ersten mobile app zu Berechnung der
+    Lage der Knotenpunkte im Zeigerbild bei Dreiphasensysteme</string>
+    <string name="tabelle">
+        Die untere Tabelle zeigt die maßgerechten Koordinaten
+        der Knotenpunkte. Diese können der Tabelle entnommen und
+        in einer Skizze angefertigt werden. Damit kann
+        die Lage der Stromzeiger nachvollzogen werden. Somit lassen
+        sich auch Aussagen über das System herleiten insbesondere
+        die Art der Strangsbelastung (Kapazitiv/Induktiv).
+    </string>
+    <string name="beschreibung">
+        Die Skizze ist nicht besonders schwer. Man könnte das
+        einfach berechnen und mit dem Zirkel zeichnen. Ja wenn man
+        Eins oder Zwei Skizzieren will. Was ist dann, wenn mehrere zB.
+        Acht. oder wenn man nur seine Skizze überprüfen will?
+    </string>
+    <string name="vrg0">
+        Bei einer unsymmetrischen Last lässt sich
+        das Zeigerbild vereinfacht folgendermaßen
+        bestimmen:
+    </string>
+    <string name="vrg1">
+        1. Strangspannungen bezogen auf Knotenpunkt D
+        bestimmen.
+    </string>
+    <string name="vrg2">
+        2. Strangspannungen bezogen auf Knotenpunkt B
+        bestimmen. (messen/rechnen)
+    </string>
+    <string name="vrg3">
+        3. (Mess)ergebnisse und Strangspannugen aus
+        1.   voneinander subtrahieren.
+    </string>
+    <string name="vrg4">
+        4. Ergebnisse als Koordinaten betrachten (3D).
+    </string>
+    <string name="vrg5">
+        5. Mittelpunkt D als Koordinatenursprung und
+        Strangspannugen bezogen auf D als Achsen.
+    </string>
+    <string name="vrg6">
+        6. Nun Kann Mittelpunkt B gezeichnet werden.
+    </string>
+    <string name="vrg7">
+        7. Strangspannungen bezogen auf B kennzeichnen.
+    </string>
+
+</resources>

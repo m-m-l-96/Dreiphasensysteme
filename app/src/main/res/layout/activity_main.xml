@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:text="@string/welcome" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp">
+
+        <EditText
+            android:id="@+id/m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Massstab in [cm/V]"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/ul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Leiterspannung in [V]"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/u1"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Strangspannung zu B aus S in [V]"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/u2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Strangspannung zu B aus R in [V]"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/u3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Strangspannung zu B aus T in [V]"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/zeichnen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tabelle" />
+        <Button
+            android:id="@+id/vrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03DAC6"
+            android:layout_marginTop="10dp"
+            android:text="Vorgehensweise" />
+    </LinearLayout>
+
+</RelativeLayout>
