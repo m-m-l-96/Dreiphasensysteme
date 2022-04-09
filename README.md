@@ -1,5 +1,7 @@
 # Dreiphasensysteme - Android und HTML (JAVASCRIPT + CSS)
-Zeigerbilder und Ortskurve
+
+## Dreiphasensysteme - Android
+Zeigerbilder:
 Android App für die Bestimmung der Lage von Knotenpunkten S,R,T,D, und B bei gemessenen/berechneten Strangspannungen. 
 
 
@@ -7,3 +9,13 @@ Android App für die Bestimmung der Lage von Knotenpunkten S,R,T,D, und B bei ge
 
 
 ![](s1.png) ![](s2.png)
+
+## Dreiphasensysteme - Web 
+![](s3.png) ![](s4.png)
+
+
+## Licence 
+
+Kostenfrei. 
+
+
