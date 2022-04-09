@@ -1,0 +1,113 @@
+p{
+   font-family:sans-serif;
+   
+}
+.title {
+   display: block;
+   font-size: xx-large;
+   font-weight: bolder;
+   color: black;
+   text-align: center;
+   margin-bottom: 100px;
+   margin-top: 70px;
+  vertical-align: 25px;
+}
+.description {
+   width: 1000px;
+   display: block;
+   line-height: 37px;
+   margin-left: 50px;
+   font-size: x-large;
+}
+.img-desc {
+   width: 1000px;
+   display: block;
+   line-height: 37px;
+   margin-left: 50px;
+   font-size: x-large;
+}
+.subject {
+   width: 1000px;
+   font-weight: bold;
+   margin-left: 50px;
+}
+.link {
+   font-size:large;
+   background-color: rgba(0, 0, 0, 0.5);
+   transition: opacity 0.3s, box-shadow 0.3s;
+   border-radius: 15px;
+
+}
+.link:hover {
+   opacity: 0.7;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.input {
+   display:block;
+   margin-top:15px;
+   margin-left:400px;
+   font-size: large;
+   font-weight: normal;
+   width: 500px;
+   height:40px;
+   border-style: solid;
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.function{
+   font-size: large;
+   font-weight: bold;
+   width: 120px;
+   height: 37px;
+   background-color: white;
+   color: blue;
+   border-radius: 15px;
+   border-style: solid;
+   margin-right:70px;
+   margin-top: 0px;
+   margin-left: 500px;
+   border-color: blue;
+   transition: opacity 0.3s, background-color 0.3s,
+   color 0.3s, box-shadow 0.3s;
+}
+.function:hover {
+   opacity: 0.5;
+   background-color: blue;
+   color: white;
+   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+   cursor: pointer;
+}
+.myDiv{
+   margin-top: 20px;
+   margin-left: 200px;
+}
+.myDivDesc{
+   font-weight: bold;
+   margin-left:200px;
+   margin-top:10px;
+   font-family: Arial;
+   background-color:whitesmoke;
+   width: 900px;
+}
+.return{
+   font-size: large;
+   font-weight: bold;
+   width: 150px;
+   height: 37px;
+   background-color: white;
+   color: black;
+   border-radius: 15px;
+   border-style: solid;
+   margin-right:70px;
+   margin-top: 35px;
+   border-color:red;
+   transition: opacity 0.3s, background-color 0.3s,
+   color 0.3s, box-shadow 0.3s;
+   display: inline-block;
+}
+.return:hover {
+   opacity: 0.5;
+   background-color: black;
+   color: red;
+   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+   cursor: pointer;
+}

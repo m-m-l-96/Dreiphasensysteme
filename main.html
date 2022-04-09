@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Dreiphasensystem
+      </title>
+      <script src='https://cdn.plot.ly/plotly-2.9.0.min.js'></script>
+      <link rel="stylesheet" href="main.css">
+      <script src="main.js"></script>
+   </head>
+   <body>
+   
+      <p class="title">Zeigerdiagramm unsymmetrischer Systeme</p>
+      <p class="description">Diese App sollte bei der Skizze von Zeigerbildern
+         unsymmetrischer Systemen bei der Behandlung Mehrphasensysteme in 
+         elektrotechnischer Grundlagenlabor 2 helfen.
+      </p>
+      <p class="subject">Bei gemessenen / berechneten Stangsspannungen lässt sich die Lage der 
+         wichtigsten Punkten hier Zeigen.
+         Bitte tragen Sie die Werte in den entsprechenden Stellen.
+      </p>
+      <input type="text" placeholder="Massstab in [V/cm] ", class="input", id="mu">
+      <input type="text" placeholder="Leiterspannung in [V]", class="input", id="ul">
+      <input type="text" placeholder="Strangspannung zum Mittelpunkt B aus S in [V]", class="input", id="u1">
+      <input type="text" placeholder="Strangspannung zum Mittelpunkt B aus R in [V]", class="input", id="u2">
+      <input type="text" placeholder="Strangspannung zum Mittelpunkt B aus T in [V]", class="input", id="u3">
+      <button class="function" onclick="func()">Zeichnen</button>
+      <button class="return" onclick="ret()">Reinitialisieren</button>
+      <a href="https://drive.google.com/file/d/1dYxtDfFFHFSfp-hOwF4w_8__a2vQM6oc/view?usp=sharing"  class="link" target="_blank">Link zur Vorgehensweise(Seite 7, 3.3)</a>
+      <div class="myDiv", id="myDiv"></div>
+      <p class="myDivDesc", id="mydivDesc"></p>
+
+   </body>
+</html>
