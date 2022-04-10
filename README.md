@@ -14,8 +14,12 @@ Android App für die Bestimmung der Lage von Knotenpunkten S,R,T,D, und B bei ge
 ![](s3.png) ![](s4.png)
 
 
-## Licence 
+## License 
 
-Kostenfrei. 
+Kostenfrei. (keine)
+
+## Youtube URL 
+
+https://youtu.be/0CNJ3NBXG_c
 
 
